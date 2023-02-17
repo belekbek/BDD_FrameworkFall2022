@@ -22,4 +22,7 @@ public class LoginPage {
     @FindBy(xpath = "//div[@class='toast-message']")
     public WebElement loginErrMess;
 
+    @FindBy(xpath = "//a[text()='Add user']")
+    public WebElement addUserBtn;
+
 }

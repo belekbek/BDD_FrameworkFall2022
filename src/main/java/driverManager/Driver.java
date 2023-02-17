@@ -17,9 +17,10 @@ public class Driver {
                 case "chrome":
                     driver = ChromeWebDriver.loadChromeDriver();
                     break;
-
+                case "edge":
+                    driver = EdgeWebDriver.loadEdgeDriver();
+                    break;
                 default:
-
                     break;
             }
         }
